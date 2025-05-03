@@ -3736,7 +3736,7 @@ Transform:
   m_GameObject: {fileID: 8959578213303998641}
   serializedVersion: 2
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 7.93, y: 1.5, z: 4.09}
+  m_LocalPosition: {x: -0.47, y: 12.27, z: 7.53}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children:
@@ -3931,7 +3931,7 @@ Transform:
   m_GameObject: {fileID: 2197372778278210900}
   serializedVersion: 2
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: 0, y: -0.92999995, z: -18.59}
+  m_LocalPosition: {x: 0, y: -1.5, z: -7.539}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children:
@@ -4132,6 +4132,7 @@ GameObject:
   - component: {fileID: 2197372778278210904}
   - component: {fileID: 8259264986259990438}
   - component: {fileID: 8259264986259990437}
+  - component: {fileID: 8259264986259990439}
   m_Layer: 8
   m_Name: PlayerArmature
   m_TagString: Player
@@ -5013,7 +5014,7 @@ Transform:
   m_GameObject: {fileID: 4580116357277163139}
   serializedVersion: 2
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: 0.20000029, y: 0.44500005, z: -22.59}
+  m_LocalPosition: {x: 0.20000005, y: -0.125, z: -11.539}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children:
@@ -5825,7 +5826,7 @@ Transform:
   m_GameObject: {fileID: 6850567620140217430}
   serializedVersion: 2
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: 0.20000029, y: 0.44500005, z: -22.59}
+  m_LocalPosition: {x: 0.20000005, y: -0.125, z: -11.539}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
@@ -6301,9 +6302,27 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   _data:
     _json: '{"declarations":{"Kind":"Object","collection":{"$content":[{"name":"player","value":{"$content":0,"$type":"UnityEngine.Object"},"typeHandle":{"Identification":"UnityEngine.GameObject,
+      UnityEngine.CoreModule, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null","$version":"A"},"$version":"A"},{"name":"firing","value":{"$content":1,"$type":"UnityEngine.Object"},"typeHandle":{"Identification":"UnityEngine.GameObject,
       UnityEngine.CoreModule, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null","$version":"A"},"$version":"A"}],"$version":"A"},"$version":"A"}}'
     _objectReferences:
     - {fileID: 8959578213303998641}
+    - {fileID: 5803092437959652367}
+--- !u!114 &8259264986259990439
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2197372778278210900}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: d2fe5546f775c47d2820aa5e8a715f53, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  _data:
+    _json: '{"nest":{"source":"Macro","macro":0,"embed":null}}'
+    _objectReferences:
+    - {fileID: 11400000, guid: 7071ba3fbc5fe5848a4abe1abf6590e9, type: 2}
 --- !u!4 &8495680323034099691
 Transform:
   m_ObjectHideFlags: 0
@@ -6492,7 +6511,6 @@ GameObject:
   m_Component:
   - component: {fileID: 1049733229030587780}
   - component: {fileID: 8959578213303998643}
-  - component: {fileID: 8959578213303998642}
   m_Layer: 0
   m_Name: Player
   m_TagString: Untagged
@@ -6500,22 +6518,6 @@ GameObject:
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
   m_IsActive: 1
---- !u!114 &8959578213303998642
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 8959578213303998641}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: d2fe5546f775c47d2820aa5e8a715f53, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  _data:
-    _json: '{"nest":{"source":"Macro","macro":0,"embed":null}}'
-    _objectReferences:
-    - {fileID: 11400000, guid: 7071ba3fbc5fe5848a4abe1abf6590e9, type: 2}
 --- !u!114 &8959578213303998643
 MonoBehaviour:
   m_ObjectHideFlags: 0
